@@ -9,8 +9,8 @@ export default function Home() {
           NORD NICKEL REDESIGN
         </h1>
         <p className="text-xl mb-8">Innovación en minería sostenible</p>
-        <Link 
-          href="/about" 
+        <Link
+          href="/about"
           className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-lg transition"
         >
           Conócenos

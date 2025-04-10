@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className="bg-gray-900 text-white">
+      <body className="bg-gray-900 text-white" suppressHydrationWarning>
         <Navbar />
         {children}
         <Footer />
